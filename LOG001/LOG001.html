@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+
+<link rel="stylesheet" href="../css/drawer.min.css">
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+	
+<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="../js/iscroll.js"></script>
+<script src="../js/drawer.min.js"></script>
+
+<title>ログイン画面</title>
+<style type="text/css">
+
+.drawer-nav {
+    background-color: #1a73e8;
+}
+
+.drawer-nav>ul>li {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left:20px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 30px;
+    font: bold;
+}
+
+.drawer-nav>ul>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+
+header{
+    text-align: center;
+}
+
+.header-title{
+    display: inline-block;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 30px;
+    font: bold;
+}
+
+#image-cart {
+  margin-top:2px;
+  width:16px;
+  height:16px;
+  object-fit: contain;
+
+}
+
+.header-cart{
+  border:1px solid #3079ed;
+  background-color:#4d90fe;
+  width:30px;
+  height:30px;
+}
+
+#cart{
+    width: 16px;
+    height: 16px;
+}
+
+title{
+    margin-left: 80px;
+}
+
+
+.header-area{
+    text-align: center;
+}
+
+
+</style>
+</head>
+
+<body class="drawer drawer--left">
+<script>
+  $(function(){
+    $('.drawer').drawer();
+  });
+</script>
+<header>
+    <span class="header-area">
+        <p class="header-title title">Shopping Site</p>
+        <p class="header-title icon"><button class="header-cart"><img id="cart" src="../img/cart.png"></button></p>
+    </span>
+    <button type="button" class="drawer-toggle drawer-hamburger">
+        <span class="sr-only">toggle navigation</span>
+        <span class="drawer-hamburger-icon"></span>
+    </button>
+</header>
+<nav class="drawer-nav">
+    <ul class="drawer-menu">
+        <li class="drawer-element"><a href="#">LOGIN</a></li>
+        <li class="drawer-element"><a href="#">WISH LIST</a></li>
+    </ul>
+</nav>
+<div class="aaa"></div>
+</body>
+</html>
