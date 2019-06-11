@@ -17,7 +17,60 @@
 
 <title>SoppingSite （トップ）</title>
 <style type="text/css">
+
+#topic-1{
+  width: 100%;
+  height: 1280px;
+}
+
+.relative {
+    margin-top: 80px;
+    position: relative;
+}
+#topic-char-1 {
+    text-align: center;
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    left: 650px;
+    bottom: 100px;
+    color: black;
+    background:white;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 16px;
+    font: bold;
+
+}
+#topic-char-2 {
+    text-align: center;
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    left: 50px;
+    bottom: 800px;
+    color: black;
+    background:white;
+}
+
+.topic-1-icon{
+  width: 50px;
+  height: 50px;
+}
+
+a {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 16px;
+    font: bold;
+  }
+
+a:hover { text-decoration: none;}
+a:link { color:black; }
+a:visited { color:black; }
+a:hover { color:black; }
+a:active { color:black; }
+
 </style>
+
 </head>
 
 <body class="drawer drawer--left">
@@ -51,7 +104,23 @@
         <div class="c_delimg"></div>
 </section>
     
-    
+<!-- メイン部 -->
+
+<div class="main">
+    <figure class="relative">
+      <img id="topic-1" src="../img/topic-1.jpg" alt="" />
+      <figcaption  id="topic-char-1">
+        <p>SHOES</p>
+        <img class="topic-1-icon" src="../img/icon/shoes.png" alt="" />
+        <p class="check-char"><a href="#">CHECK MORE ></a></p>
+      </figcaption>
+      <figcaption  id="topic-char-2">
+          <p>DRESS</p>
+          <img class="topic-1-icon" src="../img/icon/dress.png" alt="" />
+          <p class="check-char"><a href="#">CHECK MORE ></a></p>
+        </figcaption>
+    </figure>
+</div><!-- main -->
 
 <script src="../slick/slick.js" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript">
