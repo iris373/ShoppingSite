@@ -115,19 +115,17 @@ opacity: 1;
 
 /* トップ画像 */
 .c_topimg {
-height: 480px;
-width: 980px;
-background: url('../img/Top.jpg');
+background: url('../img/top_1.jpg');
 }
 /* 経歴画像 */
 .c_hisimg {
 height: 480px;
 width: 980px;
-background: url('../img/History.JPG');
+background: url('../img/top_2.JPG');
 }
 /* 成果物画像 */
 .c_delimg {
 height: 480px;
 width: 980px;
-background: url('../img/Deliverable.JPG');
+background: url('../img/top_3.JPG');
 }

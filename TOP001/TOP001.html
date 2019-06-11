@@ -18,9 +18,12 @@
 <title>SoppingSite （トップ）</title>
 <style type="text/css">
 
+.vertical-center-4{
+  margin-top: 20px;
+}
+
 #topic-1{
-  width: 100%;
-  height: 1280px;
+  width:100%;
 }
 
 .relative {
@@ -32,10 +35,11 @@
     width: 150px;
     height: 200px;
     position: absolute;
-    left: 650px;
-    bottom: 100px;
+    left: 70%;
+    bottom: 10%;
     color: black;
     background:white;
+    opacity: 0.9;
     font-family: 'Alegreya Sans SC', sans-serif;
     font-size: 16px;
     font: bold;
@@ -46,10 +50,15 @@
     width: 150px;
     height: 200px;
     position: absolute;
-    left: 50px;
-    bottom: 800px;
+    left: 10%;
+    bottom: 60%;
     color: black;
     background:white;
+    opacity: 0.9;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 16px;
+    font: bold;
+
 }
 
 .topic-1-icon{
@@ -99,28 +108,25 @@ a:active { color:black; }
 </nav>
 
 <section class="vertical-center-4 slider">
-        <div class="c_topimg"></div>
-        <div class="c_hisimg"></div>
-        <div class="c_delimg"></div>
+  <p><img src="../img/top_1.JPG"></p>
+  <p><img src="../img/top_2.JPG"></p>
+  <p><img src="../img/top_3.JPG"></p>
 </section>
     
 <!-- メイン部 -->
-
-<div class="main">
-    <figure class="relative">
-      <img id="topic-1" src="../img/topic-1.jpg" alt="" />
-      <figcaption  id="topic-char-1">
-        <p>SHOES</p>
-        <img class="topic-1-icon" src="../img/icon/shoes.png" alt="" />
+  <figure class="relative">
+    <img id="topic-1" src="../img/topic-1.jpg" alt="" />
+    <figcaption  id="topic-char-1">
+      <p>SHOES</p>
+      <img class="topic-1-icon" src="../img/icon/shoes.png" alt="" />
+      <p class="check-char"><a href="#">CHECK MORE ></a></p>
+    </figcaption>
+    <figcaption  id="topic-char-2">
+        <p>DRESS</p>
+        <img class="topic-1-icon" src="../img/icon/dress.png" alt="" />
         <p class="check-char"><a href="#">CHECK MORE ></a></p>
       </figcaption>
-      <figcaption  id="topic-char-2">
-          <p>DRESS</p>
-          <img class="topic-1-icon" src="../img/icon/dress.png" alt="" />
-          <p class="check-char"><a href="#">CHECK MORE ></a></p>
-        </figcaption>
-    </figure>
-</div><!-- main -->
+  </figure>
 
 <script src="../slick/slick.js" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript">
@@ -130,6 +136,7 @@ a:active { color:black; }
         autoplay: true, //自動切り替え
         autoplaySpeed: 5000, //自動切り替えにかかる時間
         centerMode: true, //要素を中央へ
+        adaptiveHeight:true,
     });
   });
 </script>
