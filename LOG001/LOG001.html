@@ -26,7 +26,7 @@
     text-align: center;
     padding-left:20px;
     font-family: 'Alegreya Sans SC', sans-serif;
-    font-size: 30px;
+    font-size: 24px;
     font: bold;
 }
 
@@ -45,7 +45,7 @@ header{
     margin: 0px;
     text-align: center;
     font-family: 'Alegreya Sans SC', sans-serif;
-    font-size: 30px;
+    font-size: 36px;
     font: bold;
 }
 
@@ -58,10 +58,18 @@ header{
 }
 
 .header-cart{
-  border:1px solid #3079ed;
-  background-color:#4d90fe;
+  border:none ;
+  background-color: white;
   width:30px;
   height:30px;
+}
+
+.header-search{
+  border:none ;
+  background-color: white;
+  width:30px;
+  height:30px;
+  margin-right: 10px;
 }
 
 #cart{
@@ -69,10 +77,20 @@ header{
     height: 16px;
 }
 
-title{
-    margin-left: 80px;
+#search{
+    width: 16px;
+    height: 16px;
 }
 
+
+.title{
+   margin-left: 60px;
+}
+
+.icon{
+    float: right;
+    margin-right: 40px;
+}
 
 .header-area{
     text-align: center;
@@ -91,7 +109,9 @@ title{
 <header>
     <span class="header-area">
         <p class="header-title title">Shopping Site</p>
-        <p class="header-title icon"><button class="header-cart"><img id="cart" src="../img/cart.png"></button></p>
+        <p class="header-title icon">
+            <button class="header-search"><img id="search" src="../img/search.png"></button>
+            <button class="header-cart"><img id="cart" src="../img/cart_icon.png"></button></p>
     </span>
     <button type="button" class="drawer-toggle drawer-hamburger">
         <span class="sr-only">toggle navigation</span>
