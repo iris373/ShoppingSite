@@ -1,3 +1,4 @@
+/* HEADER関連 */
 .drawer-nav {
   background-color: #1a73e8;
 }
@@ -77,4 +78,56 @@ margin-right: 10px;
 
 .header-area{
   text-align: center;
+}
+
+/* SLICK関連 */
+
+.slider {
+  width: 100%;
+  margin: 10px auto;
+}
+
+.slick-slide {
+margin: 0px 20px;
+}
+
+.slick-slide img {
+width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+color: rgb(18, 99, 131);
+}
+
+.slick-slide {
+transition: all ease-in-out .3s;
+opacity: .2;
+}
+
+.slick-active {
+opacity: .5;
+}
+
+.slick-current {
+opacity: 1;
+}
+
+/* トップ画像 */
+.c_topimg {
+height: 480px;
+width: 980px;
+background: url('../img/Top.jpg');
+}
+/* 経歴画像 */
+.c_hisimg {
+height: 480px;
+width: 980px;
+background: url('../img/History.JPG');
+}
+/* 成果物画像 */
+.c_delimg {
+height: 480px;
+width: 980px;
+background: url('../img/Deliverable.JPG');
 }
