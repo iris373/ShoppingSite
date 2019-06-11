@@ -1,0 +1,80 @@
+.drawer-nav {
+  background-color: #1a73e8;
+}
+
+.drawer-nav>ul>li {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-left:20px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 24px;
+  font: bold;
+}
+
+.drawer-nav>ul>li>a {
+  text-decoration: none;
+  color: white;
+}
+
+
+header{
+  text-align: center;
+}
+
+.header-title{
+  display: inline-block;
+  margin: 0px;
+  text-align: center;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 36px;
+  font: bold;
+}
+
+#image-cart {
+margin-top:2px;
+width:16px;
+height:16px;
+object-fit: contain;
+
+}
+
+.header-cart{
+border:none ;
+background-color: white;
+width:30px;
+height:30px;
+}
+
+.header-search{
+border:none ;
+background-color: white;
+width:30px;
+height:30px;
+margin-right: 10px;
+}
+
+#cart{
+  width: 16px;
+  height: 16px;
+}
+
+#search{
+  width: 16px;
+  height: 16px;
+}
+
+
+.title{
+ margin-left: 60px;
+}
+
+.icon{
+  float: right;
+  margin-right: 30px;
+}
+
+.header-area{
+  text-align: center;
+}
