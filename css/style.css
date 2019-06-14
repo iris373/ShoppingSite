@@ -129,3 +129,64 @@ height: 480px;
 width: 980px;
 background: url('../img/top_3.JPG');
 }
+
+
+.vertical-center-4{
+  margin-top: 20px;
+}
+
+#topic-1{
+  width:100%;
+}
+
+.relative {
+    margin-top: 80px;
+    position: relative;
+}
+#topic-char-1 {
+    text-align: center;
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    left: 70%;
+    bottom: 10%;
+    color: black;
+    background:white;
+    opacity: 0.9;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 16px;
+    font: bold;
+
+}
+#topic-char-2 {
+    text-align: center;
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    left: 10%;
+    bottom: 60%;
+    color: black;
+    background:white;
+    opacity: 0.9;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 16px;
+    font: bold;
+
+}
+
+.topic-1-icon{
+  width: 50px;
+  height: 50px;
+}
+
+a {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 16px;
+    font: bold;
+  }
+
+a:hover { text-decoration: none;}
+a:link { color:black; }
+a:visited { color:black; }
+a:hover { color:black; }
+a:active { color:black; }

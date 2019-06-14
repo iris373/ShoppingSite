@@ -19,66 +19,6 @@
 <title>SoppingSite （トップ）</title>
 <style type="text/css">
 
-.vertical-center-4{
-  margin-top: 20px;
-}
-
-#topic-1{
-  width:100%;
-}
-
-.relative {
-    margin-top: 80px;
-    position: relative;
-}
-#topic-char-1 {
-    text-align: center;
-    width: 150px;
-    height: 200px;
-    position: absolute;
-    left: 70%;
-    bottom: 10%;
-    color: black;
-    background:white;
-    opacity: 0.9;
-    font-family: 'Alegreya Sans SC', sans-serif;
-    font-size: 16px;
-    font: bold;
-
-}
-#topic-char-2 {
-    text-align: center;
-    width: 150px;
-    height: 200px;
-    position: absolute;
-    left: 10%;
-    bottom: 60%;
-    color: black;
-    background:white;
-    opacity: 0.9;
-    font-family: 'Alegreya Sans SC', sans-serif;
-    font-size: 16px;
-    font: bold;
-
-}
-
-.topic-1-icon{
-  width: 50px;
-  height: 50px;
-}
-
-a {
-    font-family: 'Alegreya Sans SC', sans-serif;
-    font-size: 16px;
-    font: bold;
-  }
-
-a:hover { text-decoration: none;}
-a:link { color:black; }
-a:visited { color:black; }
-a:hover { color:black; }
-a:active { color:black; }
-
 </style>
 
 </head>
@@ -91,18 +31,7 @@ a:active { color:black; }
   });
 </script>
 
-<header class="include-header">
-    <span class="header-area">
-      <p class="header-title title">Shopping Site</p>
-      <p class="header-title icon">
-          <button class="header-search"><img id="search" src="../img/icon/search.png"></button>
-          <button class="header-cart"><img id="cart" src="../img/icon/cart.png"></button></p>
-    </span>
-    <button type="button" class="drawer-toggle drawer-hamburger">
-        <span class="sr-only">toggle navigation</span>
-        <span class="drawer-hamburger-icon"></span>
-    </button>
-  </header>
+<div class="out-header"></div>
 
 <nav class="drawer-nav">
   <ul class="drawer-menu">
